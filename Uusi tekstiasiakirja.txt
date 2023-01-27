@@ -1,0 +1,61 @@
+activity1/
+
+Task 1
+
+What is difference between queue and stack?
+The primary difference between Stack and Queue Data Structures is that Stack follows LIFO while Queue follows FIFO data structure type.
+ LIFO refers to Last In First Out. 
+It means that when we put data in a Stack, it processes the last entry first. Conversely, FIFO refers to First In First Out.
+
+
+Task 3
+
+ ‪1.What is the difference between Array Implementation and the Linked List Implementation of Stacks. Refer to the following link:‬‏
+Array gets memory allocated in the Stack section. Whereas, linked list gets memory allocated in Heap section.
+
+2.What is the difference between Array Implementation and the Linked List Implementation of Queues. Refer to the following link:
+
+The linked list versions have better worst-case behavior, but may have a worse overall runtime because of the number of allocations performed. 
+The array versions are slower in the worst-case, but have better overall performance if the time per operation isn't too important.
+
+
+activity2/
+
+
+Task 1: Arrays
+
+Discuss in group whether the following statements are True or false.
+
+ 1.Reading from an array takes one step.
+True
+ 2.Searching an array of N elements takes up to N steps e.g. for an array of 5 elements, the maximum number of steps is 5. For an array of 500 elements, the maximum number would take is 500.
+True
+ 3.Insertion of an element in an array of length N, takes (N + 1) steps in worst-case scenario.
+True
+ 4.Deletion of an element from an array of length N, takes N steps in worst-case scenario.
+True
+
+Task 2: Sets
+Discuss in group whether the following statements are True or false.
+
+ Reading from an an array-based set takes one step.
+True
+ Searching an array-based set of N elements takes up to N steps.
+True
+ Insertion of an element in an array-based set of length N, takes (2N + 1) steps steps in worst-case scenario.
+false
+ Deletion of an element from an array-based set of length N, takes N steps in worst-case scenario.
+True
+
+Taks 3
+Array-based sets are arrays with one additional constraint of barring duplicates. How does this single Rule affect efficiency?
+
+Should we avoid sets because insertion is slower for sets than regular arrays?
+
+*An Array can contain the same value twice while a Set will never contain duplicates. 
+  This is also the reason that the above insert method is returning a boolean to indicate whether the insert actually succeeded 
+
+
+
+
+
